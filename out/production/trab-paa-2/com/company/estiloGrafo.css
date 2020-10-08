@@ -1,0 +1,28 @@
+
+node {
+    size-mode: fit;
+    shape: rounded-box;
+    fill-color: white;
+    text-size:30px;
+    stroke-mode: plain; padding: 3px,2px;
+}
+edge {
+    text-color: #222;
+    text-background-mode: plain;
+    text-background-color: white;
+    arrow-shape: arrow;
+    text-size:30px;
+}
+node.origem{
+    fill-color: lightpink, red;
+
+}
+edge.menorescaminhos{
+    shape: angle;
+    fill-color:#c2d,purple ;
+    text-padding: 3px, 2px;
+    text-background-mode: rounded-box;
+    text-background-color: #A7CC;
+    text-color: white; text-style: bold-italic;
+    text-color: #FFF;
+}
